@@ -5,7 +5,7 @@ It will probably not work as is.
 
 A comprehensive Arduino library for interfacing with the AS6500 high-precision Time-to-Digital Converter (TDC) via SPI communication. This library provides an easy-to-use API for measuring time intervals with picosecond resolution.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -20,7 +20,7 @@ A comprehensive Arduino library for interfacing with the AS6500 high-precision T
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🔍 Overview
+## Overview
 
 The AS6500 is a high-precision Time-to-Digital Converter (TDC) capable of measuring time intervals with picosecond resolution. This Arduino library provides a complete interface to the AS6500, handling all low-level SPI communication, calibration, and configuration, allowing you to focus on your time measurement application.
 
@@ -31,7 +31,7 @@ The AS6500 is a high-precision Time-to-Digital Converter (TDC) capable of measur
 - Operating modes: Single-shot and continuous
 - Built-in calibration: Automatic temperature compensation
 
-## ✨ Features
+## Features
 
 - ✅ **Full SPI Communication** - Complete SPI protocol implementation with configurable clock speeds up to 10 MHz
 - ✅ **Multiple Measurement Modes** - Single-shot and continuous measurement modes
@@ -44,14 +44,14 @@ The AS6500 is a high-precision Time-to-Digital Converter (TDC) capable of measur
 - ✅ **Low-Level Access** - Direct register read/write access for advanced users
 - ✅ **Well Documented** - Extensive inline documentation and examples
 
-## 🛠️ Hardware Requirements
+## Hardware Requirements
 
 - **Arduino Board**: Uno, Mega, Due, or any compatible board with SPI support
 - **AS6500 TDC Module**: Time-to-Digital Converter chip
 - **Connections**: SPI interface (MOSI, MISO, SCK, CS)
 - **Level Shifters** (if needed): For 5V Arduino boards to interface with 3.3V AS6500
 
-## 📦 Installation
+## Installation
 
 ### Method 1: Arduino Library Manager (Recommended - when published)
 1. Open the Arduino IDE
@@ -71,7 +71,7 @@ cd ~/Documents/Arduino/libraries/
 git clone https://github.com/KajWiik/AS6500_arduino.git
 ```
 
-## 🔌 Wiring Diagram
+## Wiring Diagram
 
 ### Standard Arduino (Uno, Nano, etc.)
 
