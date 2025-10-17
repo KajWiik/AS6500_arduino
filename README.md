@@ -1,4 +1,4 @@
-[!CAUTION] This driver (and the self praises :-D) is a raw output from Claude Sonnet AI and it is currently untested. It will probably not work as is.
+:warning: This driver (and the self praises :-D) is a raw output from Claude Sonnet AI and it is currently untested. It will probably not work as is.
 
 # AS6500 Time-to-Digital Converter Arduino Driver
 
