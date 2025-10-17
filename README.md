@@ -1,3 +1,5 @@
+[!CAUTION] This driver (and the self praises :-D) is a raw output from Claude Sonnet AI and it is currently untested. It will probably not work as is.
+
 # AS6500 Time-to-Digital Converter Arduino Driver
 
 A comprehensive Arduino library for interfacing with the AS6500 high-precision Time-to-Digital Converter (TDC) via SPI communication. This library provides an easy-to-use API for measuring time intervals with picosecond resolution.
